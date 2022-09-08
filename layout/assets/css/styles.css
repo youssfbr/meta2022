@@ -118,3 +118,33 @@ header {
   background-color: #242C3B;
 }
 
+.red-btn-table-container {
+  display: flex;
+  justify-content: center;
+}
+
+.red-btn-table {
+  height: 45px;
+  width: 45px;
+  background: rgba(255, 107, 114, 0.1);
+  border: 1px solid #FF6B72;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.red-btn-table img {
+  width: 19px;
+}
+
+.show576 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
+  }
+}
